@@ -1,3 +1,6 @@
+--Data Combination Process
+
+-- Combining all 12 months through 2022/05-2023/04 in one table named 2022_23tripdata_combin
 
 DROP TABLE IF EXISTS `cyclistic-case-study-389200.Tripdata.2022_23tripdata_combin`;
 
