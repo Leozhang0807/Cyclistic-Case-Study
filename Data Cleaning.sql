@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS `Tripdata.2022_2023tripdata_combian_cleaned` AS (
          WHEN day_of_week = 6 THEN 'FRIDAY'
          WHEN day_of_week = 7 THEN 'SATURDAY'
       END
-  ) as weekday                                  -- Notice the day of week in the table through Sunday to Saturday
+  ) as weekday                                  -- Covent the day of week in the table through Sunday to Saturday from integer to string
   FROM `Tripdata.2022_23tripdata_combin` AS T1
   LEFT JOIN(
     SELECT ride_id, (
@@ -38,5 +38,10 @@ CREATE TABLE IF NOT EXISTS `Tripdata.2022_2023tripdata_combian_cleaned` AS (
 )  
 -- Data cleaning remove all null value in the table and rental duration less than 1 minute. 
 
-select count(*) from `Tripdata.2022_23tripdata_combin`
--- 4,443,766 rows after data cleaning
+SELECT COUNT(*) FROM `Tripdata.2022_23tripdata_combin`
+-- 4,443,766 rows after data cleaning and there have 1,415,295 been removed
+
+
+ALTER TABLE `Tripdata.2022_2023tripdata_combian_cleaned`
+ADD PRIMARY KEY (ride_id) not enforced
+-- Set ride_id as primary key in the database
