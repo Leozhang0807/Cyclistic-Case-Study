@@ -1,10 +1,4 @@
 
-
-select count(*) from `Tripdata.2022_23tripdata_combin`
-
--- 5,859,061 rows data in the database
-
-
 SELECT  COUNT(ride_id) -  COUNT(DISTINCT ride_id) as ride_id
   FROM `2022_23tripdata_combin` 
 --Checking there have 13 duplicate rows under ride_id.
