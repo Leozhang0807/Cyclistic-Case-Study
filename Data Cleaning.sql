@@ -1,3 +1,9 @@
+
+SELECT COUNT(*) FROM `Tripdata.2022_23tripdata_combin`
+
+-- Before data clean there have 5,859,061 rows data in the database
+
+
 DROP TABLE IF EXISTS `Tripdata.2022_2023tripdata_combian_cleaned`;
 
 CREATE TABLE IF NOT EXISTS `Tripdata.2022_2023tripdata_combian_cleaned` AS (
