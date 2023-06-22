@@ -9,6 +9,7 @@ ORDER BY
   member_casual, total_trips ASC
 
 ---Number of the ride per month by different member type and ride type
+  
 SELECT CASE 
   EXTRACT(month FROM started_at) 
       WHEN 1 THEN 'JAN'
@@ -29,6 +30,17 @@ GROUP BY
   month, member_casual, rideable_type
 ORDER BY 
   member_casual, month;
+
+---Number of the ride per hour by different member type and ride type
+
+SELECT 
+  EXTRACT(hour FROM started_at) as hour_of_day, member_casual, rideable_type, COUNT(*) AS total_trips
+FROM `Tripdata.2022_2023tripdata_combine_cleaned`
+GROUP BY 
+  hour_of_day, member_casual, rideable_type
+ORDER BY 
+  member_casual, hour_of_day;
+
 
 
 
