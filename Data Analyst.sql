@@ -33,8 +33,7 @@ ORDER BY
 
 ---Number of the ride per hour by different member type and ride type
 
-SELECT 
-  EXTRACT(hour FROM started_at) as hour_of_day, member_casual, rideable_type, COUNT(*) AS total_trips
+SELECT EXTRACT(hour FROM started_at) as hour_of_day, member_casual, rideable_type, COUNT(*) AS total_trips
 FROM `Tripdata.2022_2023tripdata_combine_cleaned`
 GROUP BY 
   hour_of_day, member_casual, rideable_type
