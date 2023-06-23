@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS `Tripdata.2022_2023tripdata_combine_cleaned` AS (
 
   SELECT T1.ride_id, rideable_type, started_at, ended_at, day_of_week, 
          start_station_name, start_station_id, end_station_name, end_station_id, 
-         start_lat, start_lng, member_casual, (
+         start_lat, start_lng, end_lat, end_lng, member_casual, (
     CASE WHEN day_of_week = 1 THEN 'SUNDAY'
          WHEN day_of_week = 2 THEN 'MONDAY'
          WHEN day_of_week = 3 THEN 'TUESDAY'
