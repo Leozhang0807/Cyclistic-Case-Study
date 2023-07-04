@@ -46,6 +46,12 @@ visualizations.
 ### My task
 I have been assigned the first question to answer which is "How do annual members and casual riders use Cyclistic bikes differently?" by Lily Moreno The director of marketing and my manager. 
 
+## Prepare 
+I downloaded 12 months of Cyclistic trip data from May 2022 to April 2023 from [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by
+Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).)
+
+
+
 
 
 
