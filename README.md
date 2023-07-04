@@ -3,7 +3,7 @@
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 ## Introduction
-In this case study I am working for a fictional company called Cyclistic by performing as a real-world junior data analyst. in order to solve critical business questions. Follow the analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
+In this case study I am working for a fictional company called Cyclistic by performing as a real-world junior data analyst. in order to solve critical business questions. Follow the analysis process: [Ask](#ask), Prepare, Process, Analyze, Share, and Act.	
 
 
 ## About Company
