@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `Tripdata.2022_2023tripdata_combine_cleaned` AS (
       start_lat IS NOT NULL
 )    -- Data cleaning remove all null value in the table and rental duration less than 1 minute. 
 
-SELECT COUNT(*) FROM `Tripdata.2022_23tripdata_combin`
+SELECT COUNT(*) FROM `Tripdata.2022_23tripdata_combian_cleaned`
 -- 4,443,766 rows after data cleaning and there have 1,415,295 been removed
 
 
