@@ -1,5 +1,5 @@
 
-SELECT  COUNT(ride_id) -  COUNT(DISTINCT ride_id) as ride_id
+SELECT  COUNT(ride_id) -  COUNT(DISTINCT ride_id) as duplicate_ride_id
   FROM `2022_23tripdata_combin` 
 --Checking there have 13 duplicate rows under ride_id.
 
