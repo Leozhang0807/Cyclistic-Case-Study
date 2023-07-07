@@ -54,6 +54,9 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 Each file contains one month of Bike rental information such as ride id, bike type, start rental time, end rental time, start rental station name and location, end rental station name and location, and the customer membership type on each rental.
 
 ## Process Data
+Before I process the data in Excel. I create a column called day_of_week to calculate the day of the week that each ride started using the WEEKDAY command (example: =WEEKDAY(C2,1)). Formatted as a NUMBER without decimal.
+And 1-7 represents Sunday to Saturday.
+
 I used Big Quary to process data. Before I upload the data in Big Quary since the datasets are so large, I created a bucket in Google Cloud Storage to upload all 12 months' datasets after I transfer data from the 
 Google Cloud Storage to Big Quary I deleted all the files in  Google Cloud Storage to save the budget.
 
@@ -62,15 +65,43 @@ I combine 12 months of datasets into one data named 2022_2023tripdata_combin.\
 SQL Code: [Data Combination Code](https://github.com/Leozhang0807/Cyclistic-Case-Study/blob/main/Data%20Combination.sql)
 
 ### Data Exploration
-Before I clean data I take a peep dataset after I combine it.
+Before I clean data I take an investigation on the dataset after I combine it.
 
 Observations
   1. Below table shows all column name and their data types in the dataset.
 
      ![data_type](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/9c6b844c-8db6-4207-9233-6a147f17828c)
 
-  2. After checking each column, there have six columns containing the null value which are start_station_name, start_station_id,
+  2. After checking each column, there have seven columns containing the null value which are ride_id, start_station_name, start_station_id,
      end_station_name, end_station_id, end_lat, and end_lng.
+
+  3. There have 13 duplicate rows under ride_id.
+
+     ![duplicate_ride_id](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/14bb1446-b977-4bed-95ad-68608ab0cca1)
+
+  4. There have 140515 rental trips less than 1 minute. Those rows need to remove when cleaning the data.
+
+     ![less_minute](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/fe7b6a01-d681-468e-9e1a-262a18cf9c01)
+
+     
+### Data Cleaning
+After investigation, It's time to do the data cleaning.
+SQL Code: [Data Cleaning Code](https://github.com/Leozhang0807/Cyclistic-Case-Study/blob/main/Data%20Cleaning.sql)
+
+  1. Create a column named weekday used to convert the day of the week from Number to String.
+
+  2. Removed all the null data rows in the dataset.
+
+  3. Only keep the trip duration that more than one minute.
+
+After data cleaning there have 4,443,766 rows left and there have 1,415,295 been removed.
+
+## Data Analyze and Share
+
+
+
+
+
 
   
 
