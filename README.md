@@ -46,9 +46,35 @@ visualizations.
 ### My task
 I have been assigned the first question to answer which is "How do annual members and casual riders use Cyclistic bikes differently?" by Lily Moreno The director of marketing and my manager. 
 
-## Prepare 
+## Prepare Data
 I downloaded 12 months of Cyclistic trip data from May 2022 to April 2023 from [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by
 Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).)
+
+Each file contains one month of Bike rental information such as ride id, bike type, start rental time, end rental time, start rental station name and location, end rental station name and location, and the customer membership type on each rental.
+
+## Process Data
+I used Big Quary to process data. Before I upload the data in Big Quary since the datasets are so large, I created a bucket in Google Cloud Storage to upload all 12 months' datasets after I transfer data from the 
+Google Cloud Storage to Big Quary I deleted all the files in  Google Cloud Storage to save the budget.
+
+### Data Combination
+I combine 12 months of datasets into one data named 2022_2023tripdata_combin.\
+SQL Code: [Data Combination Code](https://github.com/Leozhang0807/Cyclistic-Case-Study/blob/main/Data%20Combination.sql)
+
+### Data Exploration
+Before I clean data I take a peep dataset after I combine it.
+
+Observations
+  1. Below table shows all column name and their data types in the dataset
+
+     ![data_type](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/9c6b844c-8db6-4207-9233-6a147f17828c)
+
+
+
+
+
+
+
+
 
 
 
