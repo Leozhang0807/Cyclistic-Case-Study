@@ -3,7 +3,8 @@
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 ## Introduction
-In this case study I am working for a fictional company called Cyclistic by performing as a real-world junior data analyst. in order to solve critical business questions. Follow the analysis process: [Ask](#ask), Prepare, Process, Analyze, Share, and Act.	
+In this case study I am working for a fictional company called Cyclistic by performing as a real-world junior data analyst. in order to solve critical business questions. Follow the analysis process: [Ask](#ask), 
+[Prepare](#prepare), [Process](#process), Analyze, Share, and Act.	
 
 
 ## About Company
@@ -64,9 +65,14 @@ SQL Code: [Data Combination Code](https://github.com/Leozhang0807/Cyclistic-Case
 Before I clean data I take a peep dataset after I combine it.
 
 Observations
-  1. Below table shows all column name and their data types in the dataset
+  1. Below table shows all column name and their data types in the dataset.
 
      ![data_type](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/9c6b844c-8db6-4207-9233-6a147f17828c)
+
+  2. After checking each column, there have six columns containing the null value which are start_station_name, start_station_id,
+     end_station_name, end_station_id, end_lat, and end_lng.
+
+  
 
 
 
