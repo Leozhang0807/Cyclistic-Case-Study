@@ -69,18 +69,18 @@ Before I clean data I take an investigation on the dataset after I combine it.
 Observations
   1. Below table shows all column name and their data types in the dataset.
 
-     ![data_type][(https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/9c6b844c-8db6-4207-9233-6a147f17828c)](https://user-images.githubusercontent.com/35789579/252071793-f87ec101-89b0-4b06-a860-b43624dc9ba5.PNG)
+     ![data_type](https://user-images.githubusercontent.com/35789579/252071793-f87ec101-89b0-4b06-a860-b43624dc9ba5.PNG)
 
   2. After checking each column, there have seven columns containing the null value which are ride_id, start_station_name, start_station_id,
      end_station_name, end_station_id, end_lat, and end_lng.
 
   3. There have 13 duplicate rows under ride_id.
 
-     ![duplicate_ride_id](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/14bb1446-b977-4bed-95ad-68608ab0cca1)
+     ![duplicate_ride_id](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/102e02db-0fdb-4849-b315-7367629cbe7f)
 
   4. There have 140515 rental trips less than 1 minute. Those rows need to remove when cleaning the data.
 
-     ![less_minute](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/fe7b6a01-d681-468e-9e1a-262a18cf9c01)
+     ![less_minute](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/09142b0a-3d06-4371-ada4-5adb65edc9e3)
 
      
 ### Data Cleaning
@@ -98,6 +98,23 @@ After data cleaning there have 4,443,766 rows left and there have 1,415,295 been
 ## Data Analyze and Share
 SQL Code: [Data Analyst Code](https://github.com/Leozhang0807/Cyclistic-Case-Study/blob/main/Data%20Analyst.sql)\
 Data Visualization Tool: [Tableau](https://public.tableau.com/app/profile/linus.zhang/viz/CyclisticDataAnalyst_16883473163880/end_station#1)
+
+
+First of all, based on the Bike Type Proportion Pie Chart shows that Over 58% of customers choose classic bikes instead of electric bikes
+only 4.04% of casual riders choose docked bikes and there are over 60% of customers have a membership.
+
+![Bike_type_Proportion](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/3bf03ab8-36fd-427c-a979-8e34a7fb8aef)
+
+
+Next, analyze the relationship between the number of trips by time(month, day, hour).
+
+![Trip_per_month](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/52a3ec4c-8d80-4392-b692-cac9239a489a)
+
+   Month: Usage by regular users and members is comparable between May and September, as May through September is the most comfortable time to ride in Chicago, and bike rentals increase rapidly to peak during this time. Beginning in October, bike usage begins to decline, especially for regular users, who account for nearly only 20% of total usage. From October to April, there is a significant gap between member usage and regular user usage. Due to the weather, only a few members will stick to biking.
+
+![Trip_per_day](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/b0942c11-a8f8-4e40-9df2-7e40eacfb0dd)
+
+![Trip_per_hour](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/61d9784b-ca7f-4ad4-b2d1-2fbaefdf692e)
 
 
 
