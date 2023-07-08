@@ -4,7 +4,7 @@ Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html
 
 ## Introduction
 In this case study I am working for a fictional company called Cyclistic by performing as a real-world junior data analyst. in order to solve critical business questions. Follow the analysis process: [Ask](#ask), 
-[Prepare](#prepare), [Process](#process), Analyze, Share, and Act.	
+[Prepare](#prepare-data), [Process](#process-data), [Analyze](#data-analyze-and-share), [Share](#data-analyze-and-share), and Act.	
 
 
 ## About Company
@@ -54,8 +54,7 @@ Motivate International Inc. under this [license](https://ride.divvybikes.com/dat
 Each file contains one month of Bike rental information such as ride id, bike type, start rental time, end rental time, start rental station name and location, end rental station name and location, and the customer membership type on each rental.
 
 ## Process Data
-Before I process the data in Excel. I create a column called day_of_week to calculate the day of the week that each ride started using the WEEKDAY command (example: =WEEKDAY(C2,1)). Formatted as a NUMBER without decimal.
-And 1-7 represents Sunday to Saturday.
+Before I process the data in SQL. In Excel, I create a column called day_of_week to calculate the day of the week that each ride started using the WEEKDAY command (example: =WEEKDAY(C2,1)). Formatted as a NUMBER without decimal. And 1-7 represents Sunday to Saturday.
 
 I used Big Quary to process data. Before I upload the data in Big Quary since the datasets are so large, I created a bucket in Google Cloud Storage to upload all 12 months' datasets after I transfer data from the 
 Google Cloud Storage to Big Quary I deleted all the files in  Google Cloud Storage to save the budget.
@@ -97,6 +96,10 @@ SQL Code: [Data Cleaning Code](https://github.com/Leozhang0807/Cyclistic-Case-St
 After data cleaning there have 4,443,766 rows left and there have 1,415,295 been removed.
 
 ## Data Analyze and Share
+SQL Code: [Data Analyst Code](https://github.com/Leozhang0807/Cyclistic-Case-Study/blob/main/Data%20Analyst.sql)\
+Data Visualization Tool: [Tableau](https://public.tableau.com/app/profile/linus.zhang/viz/CyclisticDataAnalyst_16883473163880/end_station#1)
+
+
 
 
 
