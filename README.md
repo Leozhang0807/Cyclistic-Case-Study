@@ -69,7 +69,7 @@ Before I clean data I take an investigation on the dataset after I combine it.
 Observations
   1. Below table shows all column name and their data types in the dataset.
 
-     ![data_type](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/9c6b844c-8db6-4207-9233-6a147f17828c)
+     ![data_type][(https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/9c6b844c-8db6-4207-9233-6a147f17828c)](https://user-images.githubusercontent.com/35789579/252071793-f87ec101-89b0-4b06-a860-b43624dc9ba5.PNG)
 
   2. After checking each column, there have seven columns containing the null value which are ride_id, start_station_name, start_station_id,
      end_station_name, end_station_id, end_lat, and end_lng.
