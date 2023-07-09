@@ -110,9 +110,11 @@ Next, analyze the relationship between the number of trips by time(month, day, h
 
 ![Trip_per_month](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/52a3ec4c-8d80-4392-b692-cac9239a489a)
 
-   Month: Usage by regular users and members is comparable between May and September, as May through September is the most comfortable time to ride in Chicago, and bike rentals increase rapidly to peak during this time. Beginning in October, bike usage begins to decline, especially for regular users, who account for nearly only 20% of total usage. From October to April, there is a significant gap between member usage and regular user usage. Due to the weather, only a few members will stick to biking.
+   Month: The amount of rental by casual riders and members is comparable between May and September, as May through September is the most comfortable time to ride in Chicago, and bike rentals increase rapidly to peak during this time. Beginning in October, bike usage began to decline, especially for casual users, who account for nearly only 20% of total usage. From October to April, there is a significant gap between member usage and casual usage. Due to the weather, only a few members will stick to biking during the winter.
 
 ![Trip_per_day](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/b0942c11-a8f8-4e40-9df2-7e40eacfb0dd)
+
+  Day: From Monday through Thursday, member usage dominates the day with more than sixty percent of total trips. Starting on Fridays it drops below sixty percent, and on weekends, member rider and casual rider usage are comparable. On Saturdays in particular, the total number of rentals by the casual rider exceeds the total number of rentals by members. In comparison, member riders are more likely to rent bikes for commuting during the week, but most casual riders choose to rent bikes on weekends.
 
 ![Trip_per_hour](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/61d9784b-ca7f-4ad4-b2d1-2fbaefdf692e)
 
