@@ -114,7 +114,7 @@ Next, analyze the relationship between the number of trips by time(month, day, h
 
 ![Trip_per_day](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/b0942c11-a8f8-4e40-9df2-7e40eacfb0dd)
 
-  Day: From Monday through Thursday, member usage dominates the day with more than sixty percent of total trips. Starting on Fridays it drops below sixty percent, and on weekends, member rider and casual rider usage are comparable. On Saturdays in particular, the total number of rentals by the casual rider exceeds the total number of rentals by members. In comparison, member riders are more likely to rent bikes for commuting during the week, but most casual riders choose to rent bikes on weekends.
+  Day: From Monday through Thursday, member usage dominates the day with more than 60% of total trips. Starting on Fridays it drops below 60%, and on weekends, member rider and casual rider usage are comparable. On Saturdays in particular, the total number of rentals by the casual rider exceeds the total number of rentals by members. In comparison, member riders are more likely to rent bikes for commuting during the week, but most casual riders choose to rent bikes on weekends.
 
 ![Trip_per_hour](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/61d9784b-ca7f-4ad4-b2d1-2fbaefdf692e)
 
