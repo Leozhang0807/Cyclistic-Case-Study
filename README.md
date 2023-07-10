@@ -64,7 +64,7 @@ I combine 12 months of datasets into one data named 2022_2023tripdata_combin.\
 SQL Code: [Data Combination Code](https://github.com/Leozhang0807/Cyclistic-Case-Study/blob/main/Data%20Combination.sql)
 
 ### Data Exploration
-Before I clean data I take an investigation on the dataset after I combine it.
+Before cleaning the  data I take an investigation on the dataset after I combine it.
 
 Observations
   1. Below table shows all column name and their data types in the dataset.
@@ -118,7 +118,18 @@ Next, analyze the relationship between the number of trips by time(month, day, h
 
 ![Trip_per_hour](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/61d9784b-ca7f-4ad4-b2d1-2fbaefdf692e)
 
+  Hour: From the graph, it is clear that the peak hours for member riders are between 6 am and 8 am and 4 pm and 6 pm daily, mainly during commuting hours. However, the bicycle usage of casual riders steadily increases from 8 am and gradually decreases from 5 pm which is consistent with the average person's travel pattern.
 
+From our previous observations, we can conclude that members use the bikes more during commuting hours, while casual riders choose to ride more during mild seasons and on weekends.
+
+
+Next, we have a look at the differences between the two groups of users in terms of average rental duration by month, day, and hour.
+![average_trip](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/da6f93fa-1a93-4ccd-8ae6-f53cc8b6580a)
+
+From the three graphs, we can clearly see that the total rental time of casual riders is higher than that of member riders. Especially from April to September every year and on weekends. Conversely, the average rental time for members is regionally stable.
+
+
+From the foregoing, it may be concluded that the average rental time of the casual riders will be much higher than that of the member riders, and the rental time at some given time will be more than twice that of the member user, especially in mild weather and on weekends, when more casual riders choose to take a bike to travel and tour. However, the number of rentals made by member riders is higher than the number of rentals made by casual riders, and they will rent bicycles more often to commute.
 
 
 
