@@ -145,16 +145,25 @@ It's more obvious when you look at the destination map. Most of the destinations
 
 ### Summary:
 ##### Member: 
-##### 1. Member riders typically rent bikes for their daily commute, with peak use from 6:00 a.m. to 9:00 p.m. They rent twice as many bikes as casual riders, but for shorter periods of time.
-##### 2. They rent more often than daily riders, but for shorter periods of time than daily riders.
+##### 1. Member riders typically rent bikes for their daily commute, with peak use from 6:00 a.m. to 9:00 p.m. They rent twice as many bikes as casual riders but for shorter periods of time.
+##### 2. They rent more often than daily riders but for shorter periods of time than daily riders.
 ##### 3. They are mainly students and commuters, located in the city center near office buildings and schools.
 ##### 4. They are affected by the seasons, with the peak period from May to September.
 
 ##### Casual:
 ##### 1. The primary rental time for daily riders is on weekends.
 ##### 2. Their rental time is much longer than that of members.
-##### 3. Daily riders' primary purpose is recreation, so they are more likely to congregate at beaches, attractions, parks and museums.
+##### 3. Daily riders' primary purpose is recreation, so they are more likely to congregate at beaches, attractions, parks, and museums.
 ##### 4. Their peak usage period is May through September.
+
+## Act
+By observing and analyzing the data, we will learn the differences between the member riders and the casual riders, after which we will be able to make targeted promotions to the casual riders to get them to become member riders：
+
+1. The marketing campaigns could start in April and end in September of each year, and the locations could be chosen where casual riders often rent bikes, such as beaches, parks, and museums.
+2. Since the casual rider rides for a longer period of time, incentives could be offered to riders who ride for longer periods of time. And try to promote more expensive electric vehicles instead of bikes.
+3. Develop a membership system that is more specific to regular riders, such as a weekend membership.
+4. Promote the concept of green travel, cooperate with environmental organizations, and encourage more casual users to join membership, so that cycling becomes a common commuting mode.
+
 
 
 
