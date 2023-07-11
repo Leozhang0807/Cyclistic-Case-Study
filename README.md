@@ -129,8 +129,32 @@ Next, we have a look at the differences between the two groups of users in terms
 From the three graphs, we can clearly see that the total rental time of casual riders is higher than that of member riders. Especially from April to September every year and on weekends. Conversely, the average rental time for members is regionally stable.
 
 
-From the foregoing, it may be concluded that the average rental time of the casual riders will be much higher than that of the member riders, and the rental time at some given time will be more than twice that of the member user, especially in mild weather and on weekends, when more casual riders choose to take a bike to travel and tour. However, the number of rentals made by member riders is higher than the number of rentals made by casual riders, and they will rent bicycles more often to commute.
+From the foregoing, it may be concluded that the average rental time of the casual riders will be much higher than that of the member riders, and the rental time at some given time will be more than twice that of the member user, especially in mild weather and on weekends, when more casual riders choose to take a bike to travel and tour. However, the number of rentals made by member riders is higher than the number of rentals made by casual riders, and they will rent bikes more often for commuting.
 
+
+Next, we compare the difference in the distribution of member and casual riders starting and ending station.
+
+![start_station](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/042a44b9-02b4-42cb-86c4-b60e2dba3c94)
+
+Members' starting points are more evenly distributed than those of regular users, with a higher concentration near downtown office buildings and transportation hubs. Casual riders' origins are concentrated near beaches, parks, and museums.
+
+![end_station](https://github.com/Leozhang0807/Cyclistic-Case-Study/assets/35789579/e75e8dc5-c0cc-432d-9281-b3c17611829f)
+
+It's more obvious when you look at the destination map. Most of the destinations for member riders are near office buildings, schools, while most of the places where casual riders return their bikes are near beaches, parks. This also supports our earlier assumption that members are more likely to use bikes for commuting - this segment includes office workers and students. Casual riders, prefer to rent bikes for pleasure, so they are more concentrated around attractions.
+
+
+### Summary:
+##### Member: 
+##### 1. Member riders typically rent bikes for their daily commute, with peak use from 6:00 a.m. to 9:00 p.m. They rent twice as many bikes as casual riders, but for shorter periods of time.
+##### 2. They rent more often than daily riders, but for shorter periods of time than daily riders.
+##### 3. They are mainly students and commuters, located in the city center near office buildings and schools.
+##### 4. They are affected by the seasons, with the peak period from May to September.
+
+##### Casual:
+##### 1. The primary rental time for daily riders is on weekends.
+##### 2. Their rental time is much longer than that of members.
+##### 3. Daily riders' primary purpose is recreation, so they are more likely to congregate at beaches, attractions, parks and museums.
+##### 4. Their peak usage period is May through September.
 
 
 
